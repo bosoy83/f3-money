@@ -1,0 +1,30 @@
+{
+    "name": "dioscouri/f3-money",
+    "type": "component",
+    "description": "PHP implementation of Fowler's Money pattern",
+    "keywords": ["F3", "Money", "Value Object", "Generic Sub-domain" ],
+    "homepage": "https://github.com/dioscouri/f3-money",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Rafael Diaz-Tushman",
+            "email": "rdiaztushman@dioscouri.com",
+            "homepage": "http://dioscouri.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Chris French",
+            "email": "chris@ammonitenetworks.com",
+            "homepage": "http://ammonitenetworks.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+         "psr-0": {
+            "Money": "src/"
+        }
+    }    
+}
