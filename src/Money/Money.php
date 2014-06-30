@@ -117,15 +117,6 @@ class Money
     }
 
     /**
-     * @deprecated Use getAmount() instead
-     * @return int
-     */
-    public function getUnits()
-    {
-        return $this->amount;
-    }
-
-    /**
      * @return int
      */
     public function getAmount()
